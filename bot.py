@@ -148,4 +148,4 @@ async def strt(event):
 
     
 print("ForceSub Bot has started.\nDo visit @The_SHIKARI_Network!")
-BotzHub.run_until_disconnected()
+Shikari.run_until_disconnected()
