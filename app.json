@@ -1,0 +1,51 @@
+{
+    "name": "Force Sub Bot",
+    "description": "Force SUb Bot is a Python based Telegram bot to Force Telegram Users to subscribe a channel.",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot"
+    ],
+    "repository": "https://github.com/ShikariBaaZ/ForceSub_Bot",
+    "success_url": "https://t.me/The_SHIKARI_Network",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH Get it from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID Get it from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot Token, Get it from @BotFather.",
+            "value": ""
+        },
+        "CHANNEL": {
+            "description": "Your Channel @username for force join.",
+            "value": ""
+        },
+        "WELCOME_MSG": {
+            "description": "welcome message For USERS to display. Can be formatted with {mention}, {title}, {fullname}, {username}, {name}, {last}, {channel}.",
+            "value": ""
+        },
+        "WELCOME_NOT_JOINED": {
+            "description": "The welcome message to display if user hasn't joined your channel. Can be formatted with {mention}, {title}, {fullname}, {username}, {name}, {last}, {channel}.",
+            "value": ""
+        },
+        "ON_JOIN": {
+            "description": "True/False. To configure if user must be muted directly on joining",
+            "value": "True"
+        },
+        "ON_NEW_MSG": {
+            "description": "True/False. If the user must be muted on sending a message without being in the channel.",
+            "value": "True"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
